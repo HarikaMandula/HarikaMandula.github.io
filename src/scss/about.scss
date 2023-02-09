@@ -1,0 +1,31 @@
+#about {
+  width: 90%;
+  margin: auto;
+  .abt-container {
+    display: flex;
+    flex-wrap: wrap;
+    .polaroid{
+      width: 30%;
+      right: 0;
+    }
+    .card{
+      width: 70%;
+    }
+    .polaroid img {
+      display: block;
+      width: 350px;
+      height: 350px;
+    }
+    .card-body {
+      font-size: 1.5rem !important;
+    }
+  }
+  h1 {
+    padding-top: 5%;
+    font: 18px/24px "opensans-bold", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: black;
+    text-align: center;
+  }
+}

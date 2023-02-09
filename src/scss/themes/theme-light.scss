@@ -1,0 +1,26 @@
+body[data-theme="light"] {
+    @import '../src/scss/light-slider.scss';
+ 
+    .slider-tab {
+       background-color: #D7CAAA;
+    }
+
+    #stars{
+        display: none;
+    }
+    .sun{  
+        background: #FFC83D;
+       // box-shadow: 0px 0px 40px 15px #FFC83D;  
+       -webkit-animation: glowing 1s ease-in-out infinite alternate;
+       -moz-animation: glowing 1s ease-in-out infinite alternate;
+       animation: glowing 1s ease-in-out infinite alternate;
+    }
+    @keyframes glowing {
+        from {
+          box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #FFC83D, 0 0 40px #FFC83D, 0 0 50px #FFC83D, 0 0 60px #FFC83D, 0 0 70px #FFC83D;
+        }
+        to {
+          box-shadow: 0 0 20px #fff, 0 0 30px #FFC83D, 0 0 40px #FFC83D, 0 0 50px #FFC83D, 0 0 60px #FFC83D, 0 0 70px #FFC83D, 0 0 80px #FFC83D;
+        }
+      }
+}
