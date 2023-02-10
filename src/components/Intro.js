@@ -48,7 +48,7 @@ class Intro extends Component {
 
     return (
       <div id="intro">
-        <div id="stars"></div>
+        {/* <div id="stars"></div>
         <div className="clouds">
           <div class="x2">
             <div class="cloud"></div>
@@ -66,7 +66,7 @@ class Intro extends Component {
             <div class="cloud"></div>
           </div>
         </div>
-        {/* <div class="boxes">
+       <div class="boxes">
             <ul class="single-box">
               <li></li>
               <li></li>
@@ -78,68 +78,67 @@ class Intro extends Component {
             </ul>
           </div>  */}
         <div className="intro-container">
-          <div class="sun" />
+          {/* <div class="sun" /> */}
           <br />
-          <div className="left">
-            <div className="intro_text">
-              <AnimationOnScroll
-                animateIn="animate__lightSpeedInLeft"
-                className="hello"
-              >
-                Hey 👋
-              </AnimationOnScroll>
-              <h1 className="mb-0">
-                <Typical steps={['Iam Harika Mandula']} wrapper="p" />
-              </h1>
-              <div className="title-container">
-                <HeaderTitleTypeAnimation />
-              </div>
-              <Switch
-                checked={this.state.checked}
-                onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
-                className="react-switch mx-auto"
-                width={90}
-                height={40}
-                uncheckedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="twemoji:owl"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "20px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                checkedIcon={
-                  <span
-                    className="iconify"
-                    data-icon="noto-v1:sun-with-face"
-                    data-inline="false"
-                    style={{
-                      display: "block",
-                      height: "100%",
-                      fontSize: 25,
-                      textAlign: "end",
-                      marginLeft: "10px",
-                      color: "#353239",
-                    }}
-                  ></span>
-                }
-                id="icon-switch"
-              />
-              <br />
-              <Button variant="warning" size="lg">
-                Show More
-              </Button>{" "}
+          <div className="intro_text">
+            <AnimationOnScroll
+              animateIn="animate__lightSpeedInLeft"
+              className="hello"
+            >
+              👋 Hey, I'm
+            </AnimationOnScroll>
+            <div className="left">
+            <h1 className="mb-0">
+            Harika 
+            </h1>
+            <div className="title-container">
+              <HeaderTitleTypeAnimation />
             </div>
-          </div>
+            <Switch
+              checked={this.state.checked}
+              onChange={this.onThemeSwitchChange}
+              offColor="#baaa80"
+              onColor="#353535"
+              className="react-switch mx-auto"
+              width={90}
+              height={40}
+              uncheckedIcon={
+                <span
+                  className="iconify"
+                  data-icon="twemoji:owl"
+                  data-inline="false"
+                  style={{
+                    display: "block",
+                    height: "100%",
+                    fontSize: 25,
+                    textAlign: "end",
+                    marginLeft: "20px",
+                    color: "#353239",
+                  }}
+                ></span>
+              }
+              checkedIcon={
+                <span
+                  className="iconify"
+                  data-icon="noto-v1:sun-with-face"
+                  data-inline="false"
+                  style={{
+                    display: "block",
+                    height: "100%",
+                    fontSize: 25,
+                    textAlign: "end",
+                    marginLeft: "10px",
+                    color: "#353239",
+                  }}
+                ></span>
+              }
+              id="icon-switch"
+            />
+            <br />
+            <Button variant="warning" size="lg">
+              Show More
+            </Button>{" "}
+          </div></div>
         </div>
       </div>
     );

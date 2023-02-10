@@ -8,7 +8,6 @@ import About from "./About";
 import Projects from "./Projects";
 import Skills from "./Skills";
 import Experience from "./Experience";
-import logo from "../assets/images/Me/bg.jpg";
 import esign from "../assets/images/Me/signature.png";
 import { ReactComponent as portfolioSvg } from "../assets/images/me.svg";
 import Intro from "./Intro";

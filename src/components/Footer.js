@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import myimage from '../assets/images/Me/HarikaPic.png';
 import "../scss/footer.scss";
 
 class Footer extends Component {
@@ -22,7 +23,14 @@ class Footer extends Component {
             <div class="row">
               <div class="col-md-6">
                 <div class="contact-detail">
-                  <h1 class="section-title">Contact us</h1>
+                  <div className="contact-sub">
+                    
+                  <img
+                    src={myimage}
+                    alt="Avatar placeholder"
+                  />
+                  <h1 class="section-title">Let's Contact!</h1>
+                  </div>
 
                   <ul class="contact-ul">
                     <li>

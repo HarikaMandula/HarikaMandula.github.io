@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import logo from "../assets/images/Me/fdev1rbg.png";
+import logo from "../assets/images/Me/s3.jpg";
 import '../scss/about.scss';
 import portfolioSvg1 from "../assets/images/Me/fd.svg";
 
