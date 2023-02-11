@@ -1,0 +1,22 @@
+#skills {
+fieldset{
+    
+    align-content: center;
+}
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        margin: auto;
+        align-content: center;
+        .skill-circle {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            padding-top: 2rem;
+        }
+    }
+}
+.abc{
+    background-color: #f5e56e;
+}

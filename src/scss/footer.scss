@@ -3,16 +3,18 @@
 
 .contact-sub {
   display: flex;
-gap: 25px;
+  gap: 25px;
+
   img {
-    width: 8rem;
-    height: 8rem;
+    width: 7rem;
+    height: 7rem;
     border-radius: 50%;
   }
 }
 
 ul {
   list-style: none;
+  text-align: left;
 }
 
 input {
@@ -34,7 +36,7 @@ input {
 
 .contact-sec {
   display: flex;
-  background-color: #5cbde466;
+  background-color: #88ceea66;
 }
 
 .contact-sec .contact-ul li,
@@ -53,7 +55,7 @@ input {
 }
 
 .contact-detail a {
-  color: #000;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -61,7 +63,7 @@ input {
   color: #f93;
 }
 
-.contact-sec .contact-ul li .fa-location-dot {
+.contact-sec .contact-ul li .fa-map-marker-alt {
   color: #f44337;
   border: 2px solid #f4433790;
 }
@@ -71,7 +73,7 @@ input {
   border: 2px solid #00b05590;
 }
 
-.contact-sec .contact-ul li .fa-envelope {
+.contact-sec .contact-ul li .fa-mail-bulk {
   color: #ff6347;
   border: 2px solid #ff634790;
 }

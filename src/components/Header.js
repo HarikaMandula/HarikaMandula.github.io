@@ -12,14 +12,22 @@ import esign from "../assets/images/Me/signature.png";
 import { ReactComponent as portfolioSvg } from "../assets/images/me.svg";
 import Intro from "./Intro";
 import "../scss/intro.scss";
+import myimage from '../assets/images/Me/HarikaPic.png';
+import slideUp from '../assets/images/Me/slideUp.png';
+import ScrollToTop from "react-scroll-to-top";
 
 const Header = (props) => {
   const scrollRef = useRef(null);
   // useScrollSnap({ ref: scrollRef, duration: 100, delay: 50 });
   return (
     <>
+    <ScrollToTop smooth color="#6605e6" />
       <div className="header">
-        <img src={esign} alt="esign" />
+        <div>
+        
+        <img src={myimage} className="profilePic" alt="Avatar placeholder" />
+        <img src={esign} className="esign" alt="esign" />
+        </div>
         <Navbar className="navigation">
           <Nav.Link href="#section0">Home</Nav.Link>
           <Nav.Link href="#section1">About</Nav.Link>
@@ -65,3 +73,10 @@ const Header = (props) => {
 };
 
 export default Header;
+
+/** Education
+ * Projects
+ * what can i do (cards)
+ * experience - re format
+ * resume
+ */

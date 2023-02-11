@@ -12,11 +12,12 @@ import nodejsIcon from "@iconify/icons-logos/nodejs-icon";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 import pythonIcon from '@iconify/icons-logos/python';
 import mysqlIcon from '@iconify/icons-logos/mysql';
-import dockerIcon from '@iconify/icons-bxl/docker';
+import dockerIcon from '@iconify/icons-logos/docker-icon';
 import figmaIcon from '@iconify/icons-bxl/figma';
 import reduxIcon from '@iconify/icons-bxl/redux';
 import phpIcon from '@iconify/icons-bxl/php';
-import javaIcon from '@iconify/icons-bxl/java';
+import awsIcon from '@iconify/icons-logos/aws';
+import '../scss/skills.scss';
 class Skills extends Component {
   render() {
     if (this.props.sharedSkills && this.props.resumeBasicInfo) {
@@ -48,6 +49,43 @@ class Skills extends Component {
             <h1 className="section-title">
               <span>{sectionName}</span>
             </h1>
+          </div>
+          <fieldset>
+            <legend>&nbsp;Proficient&nbsp;&nbsp;&nbsp;</legend>
+            <AnimationOnScroll
+              animateIn="animate__bounceInLeft"
+              className="col-md-12 text-center"
+            >
+              {/* { <ul className="list-inline mx-auto skill-icon">{skills}</ul> } */}
+              <div className="skill-icons">
+                <div class="skill-circle" style={{ backgroundColor: '#f5e56e' }}><Icon icon={jsIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{ backgroundColor: '#d1f8ff' }}><Icon icon={reactIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#6fd6a8' }}><Icon icon={vueIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#f5898c' }}><Icon icon={angularIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#ac8fd9' }}><Icon icon={bootstrapIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#9bcbeb' }}><Icon icon={typescriptIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#bae8ae' }}><Icon icon={nodejsIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#e892bc' }}><Icon icon={sassIcon} style={{ fontSize: "400%" }} /></div>
+              </div>
+            </AnimationOnScroll>
+          </fieldset>
+          <fieldset>
+            <legend>&nbsp;skillful&nbsp;&nbsp;&nbsp;</legend>
+            <AnimationOnScroll
+              animateIn="animate__bounceInLeft"
+              className="col-md-12 text-center"
+            >
+              {/* { <ul className="list-inline mx-auto skill-icon">{skills}</ul> } */}
+              <div className="skill-icons">
+                <div class="skill-circle" style={{backgroundColor: '#85b1d6' }}><Icon icon={pythonIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#9cd6e6' }}><Icon icon={mysqlIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#61b3f2' }}><Icon icon={dockerIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#90a6e8' }}><Icon icon={phpIcon} style={{ fontSize: "400%" }} /></div>
+                <div class="skill-circle" style={{backgroundColor: '#f7d094' }}><Icon icon={awsIcon} style={{ fontSize: "400%" }} /></div>
+              </div>
+            </AnimationOnScroll>
+          </fieldset>
+              <h1>What can I do</h1><br/>
             <div className="services">
               <div>
                 <i className="fa fa-paint-brush w3-xxlarge w3-text-red"></i>
@@ -66,45 +104,6 @@ class Skills extends Component {
                 <p>Architecture</p>
               </div>
             </div>
-          </div>
-          <fieldset>
-            <legend>&nbsp;Proficiency&nbsp;&nbsp;&nbsp;</legend>
-            <AnimationOnScroll
-              animateIn="animate__bounceInLeft"
-              className="col-md-12 text-center"
-            >
-              {/* { <ul className="list-inline mx-auto skill-icon">{skills}</ul> } */}
-              <div className="skill-icons">
-                <Icon icon={jsIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={reactIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={vueIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={angularIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={bootstrapIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={typescriptIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={nodejsIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={sassIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={jqueryIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={reduxIcon} style={{ fontSize: "400%" }} />
-              </div>
-            </AnimationOnScroll>
-          </fieldset>
-          <fieldset>
-            <legend>&nbsp;skillful&nbsp;&nbsp;&nbsp;</legend>
-            <AnimationOnScroll
-              animateIn="animate__bounceInLeft"
-              className="col-md-12 text-center"
-            >
-              {/* { <ul className="list-inline mx-auto skill-icon">{skills}</ul> } */}
-              <div className="skill-icons">
-                <Icon icon={pythonIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={mysqlIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={dockerIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={figmaIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={phpIcon} style={{ fontSize: "400%" }} />
-                <Icon icon={javaIcon} style={{ fontSize: "400%" }} />
-              </div>
-            </AnimationOnScroll>
-          </fieldset>
         </div>
       </section>
     );

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import myimage from '../assets/images/Me/HarikaPic.png';
 import "../scss/footer.scss";
+import ScrollUpButton from "react-scroll-up-button";
 
 class Footer extends Component {
   render() {
@@ -29,12 +30,12 @@ class Footer extends Component {
                     src={myimage}
                     alt="Avatar placeholder"
                   />
-                  <h1 class="section-title">Let's Contact!</h1>
+                  <h1 class="section-title">Let's Connect!</h1>
                   </div>
 
                   <ul class="contact-ul">
                     <li>
-                      <i class="fa fa-location-dot"></i> 169, FCI colony, Vanasthalipuram, Hyderabad
+                      <i class="fas fa-map-marker-alt"></i> 169, FCI colony, Vanasthalipuram, Hyderabad
                     </li>
 
                     <li>
@@ -45,7 +46,7 @@ class Footer extends Component {
                     </li>
 
                     <li>
-                      <i class="fa-solid fa-envelope"></i>
+                      <i class="fas fa-mail-bulk"></i>
                       <a href="mailto:pardeepkumar4bjp@gmail.com">
                         <b> IamHarikaMandula@gmail.com</b>
                       </a>
@@ -54,13 +55,13 @@ class Footer extends Component {
 
                   <span>
                     <a href="#" class="fb">
-                      <i class="fa-brands fa-facebook"></i>
+                      <i class="fab fa-facebook"></i>
                     </a>
                     <a href="#" class="insta">
-                      <i class="fa-brands fa-instagram"></i>
+                      <i class="fab fa-instagram"></i>
                     </a>
                     <a href="#" class="twitter">
-                      <i class="fa-brands fa-twitter"></i>
+                      <i class="fab fa-github"></i>
                     </a>
                   </span>
                 </div>

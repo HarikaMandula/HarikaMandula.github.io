@@ -85,7 +85,7 @@ class Intro extends Component {
               animateIn="animate__lightSpeedInLeft"
               className="hello"
             >
-              👋 Hey, I'm
+              👋 Hey Amigos, I'm
             </AnimationOnScroll>
             <div className="left">
             <h1 className="mb-0">
