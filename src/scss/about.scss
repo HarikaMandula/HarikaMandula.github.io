@@ -25,14 +25,6 @@
       font-size: 1.5rem !important;
     }
   }
-  h1 {
-    padding-top: 5%;
-    font: 18px/24px "opensans-bold", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    color: black;
-    text-align: center;
-  }
   ul {
     display: block;
     list-style-type: disc;
@@ -44,4 +36,21 @@
       padding-top: 1rem;
     }
   }
+}
+@media (max-width: 576px) {
+  .header{
+    flex-direction: row-reverse !important;
+    height: 5rem !important;
+    overflow: hidden;
+    .profilePic, .navbar{
+      display: none;
+    }
+  }
+  .abt-container {
+    div{
+      width: 100% !important;
+      display: block;
+    }
+  }
+  
 }

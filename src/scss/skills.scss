@@ -1,0 +1,74 @@
+#skills {
+    margin: auto;
+
+    fieldset {
+        box-shadow: 5px 5px 5px 5px rgb(210, 209, 209);
+        padding: 2%;
+        margin-bottom: 30px;
+        align-content: center;
+
+        legend {
+            margin-left: 30px;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+
+    .skill-icons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2%;
+        margin: auto;
+        align-content: center;
+
+        .skill-circle {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            padding-top: 2rem;
+        }
+    }
+
+    .services {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content: space-between;
+        padding-bottom: 55px;
+        flex-wrap: wrap;
+        div {
+            width: 20%;
+            height: 170px;
+            background-color: #fff;
+            box-shadow: 5px 5px 5px 5px rgb(210, 209, 209);
+            position: relative;
+            padding: 1.5rem;
+
+            i {
+                padding-bottom: 30px;
+                padding-left: 20px;
+            }
+
+            p {
+                font-size: 2rem;
+            }
+
+            &:nth-of-type(1) {
+                border-bottom: 2px solid red;
+            }
+
+            &:nth-of-type(2) {
+                border-bottom: 2px solid blue;
+            }
+
+            &:nth-of-type(3) {
+                border-bottom: 2px solid green;
+            }
+
+            &:nth-of-type(4) {
+                border-bottom: 2px solid orange;
+            }
+        }
+    }
+}

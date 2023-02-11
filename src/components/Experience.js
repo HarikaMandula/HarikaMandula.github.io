@@ -8,25 +8,32 @@ import Badge from "react-bootstrap/Badge";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 //import womanTechnologistMediumSkinTone from "@iconify/icons-openmoji/woman-technologist-medium-skin-tone";
+import Accordion from '@mui/material/Accordion';
+import AccordionSummary from '@mui/material/AccordionSummary';
+import AccordionDetails from '@mui/material/AccordionDetails';
+import Typography from '@mui/material/Typography';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import { StyledEngineProvider } from '@mui/material/styles';
 
 const Experience = () => {
   return (
     <section id="experience">
-    <h1 className="section-title">
+      <h1 className='section-title'>
       <span className="text-black" style={{ textAlign: "center" }}>
         {'My Experience'}
-      </span>
-    </h1>
-      <VerticalTimeline layout="1-column-left">
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2020 - Present"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<i className="fa fa-user-tie w3-xlarge w3-text-white"></i>}
+      </span></h1>
+    <StyledEngineProvider>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel1a-content"
+          id="panel1a-header"
         >
-          <h3 className="vertical-timeline-element-title">
-            Senior Software Engineer
-          </h3>
+          <Typography>Senior Software Engineer</Typography>
+          <Typography>2020 - Present</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
+          <Typography>
           <h4 className="vertical-timeline-element-subtitle">
             Kroll (Formerly Duff and Phelps), Hyderabad
           </h4>
@@ -77,16 +84,19 @@ const Experience = () => {
               them to resolve issues
             </li>
           </ul>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2019 - 2020"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<i className="fa fa-user-cog w3-xlarge w3-text-white"></i>}
+          </Typography>
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
-          <h3 className="vertical-timeline-element-title">
-            Senior Software Developer
-          </h3>
+          <Typography>Senior Software Developer</Typography>
+          <Typography>2019 - 2020</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
           <h4 className="vertical-timeline-element-subtitle">
             Future Focus Infotech, Hyderabad
           </h4>
@@ -118,14 +128,18 @@ const Experience = () => {
             </li>{" "}
             <li>Other tools used postman and nextgen</li>
           </ul>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2019 - 2018"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<i className="fa fa-skiing-nordic w3-xlarge w3-text-white"></i>}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
-          <h3 className="vertical-timeline-element-title">Associate Manager</h3>
+          <Typography>Associate Manager</Typography>
+          <Typography>2019 - 2018</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
           <h4 className="vertical-timeline-element-subtitle">
             Jegan Research Associates (JRA), Hyderabad
           </h4>
@@ -153,14 +167,18 @@ const Experience = () => {
               employees within dev team.
             </li>
           </ul>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2018 - 2017"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<i className="fa fa-paint-brush w3-xlarge w3-text-white"></i>}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
-          <h3 className="vertical-timeline-element-title"> Senior Programmer Analyst</h3>
+          <Typography>Senior Programmer Analyst</Typography>
+          <Typography>2016 - 2017</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
           <h4 className="vertical-timeline-element-subtitle">
             Jegan Research Associates (JRA), Hyderabad
           </h4>
@@ -188,14 +206,18 @@ const Experience = () => {
               employees within dev team.
             </li>
           </ul>
-        </VerticalTimelineElement>
-        <VerticalTimelineElement
-          className="vertical-timeline-element--work"
-          date="2017 - 2015"
-          iconStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
-          icon={<i className="fa fa-baby w3-xlarge w3-text-white"></i>}
+        </AccordionDetails>
+      </Accordion>
+      <Accordion>
+        <AccordionSummary
+          expandIcon={<ExpandMoreIcon />}
+          aria-controls="panel2a-content"
+          id="panel2a-header"
         >
-          <h3 className="vertical-timeline-element-title">Trainee, Programmer Analyst</h3>
+          <Typography>Trainee, Programmer Analyst</Typography>
+          <Typography>2015 - 2016</Typography>
+        </AccordionSummary>
+        <AccordionDetails>
           <h4 className="vertical-timeline-element-subtitle">
             Jegan Research Associates (JRA), Hyderabad
           </h4>
@@ -223,8 +245,9 @@ const Experience = () => {
               employees within dev team.
             </li>
           </ul>
-        </VerticalTimelineElement>
-      </VerticalTimeline>
+        </AccordionDetails>
+      </Accordion>
+    </StyledEngineProvider>
     </section>
   );
 };
