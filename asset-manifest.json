@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/HarikaMandulaPortfolio/static/css/main.27670afa.chunk.css",
-    "main.js": "/HarikaMandulaPortfolio/static/js/main.0bc6327b.chunk.js",
-    "main.js.map": "/HarikaMandulaPortfolio/static/js/main.0bc6327b.chunk.js.map",
+    "main.css": "/HarikaMandulaPortfolio/static/css/main.5aaca8d9.chunk.css",
+    "main.js": "/HarikaMandulaPortfolio/static/js/main.78d5efbd.chunk.js",
+    "main.js.map": "/HarikaMandulaPortfolio/static/js/main.78d5efbd.chunk.js.map",
     "runtime-main.js": "/HarikaMandulaPortfolio/static/js/runtime-main.3337d7f3.js",
     "runtime-main.js.map": "/HarikaMandulaPortfolio/static/js/runtime-main.3337d7f3.js.map",
     "static/css/2.5cce7005.chunk.css": "/HarikaMandulaPortfolio/static/css/2.5cce7005.chunk.css",
-    "static/js/2.df46a89a.chunk.js": "/HarikaMandulaPortfolio/static/js/2.df46a89a.chunk.js",
-    "static/js/2.df46a89a.chunk.js.map": "/HarikaMandulaPortfolio/static/js/2.df46a89a.chunk.js.map",
+    "static/js/2.2df4f881.chunk.js": "/HarikaMandulaPortfolio/static/js/2.2df4f881.chunk.js",
+    "static/js/2.2df4f881.chunk.js.map": "/HarikaMandulaPortfolio/static/js/2.2df4f881.chunk.js.map",
     "index.html": "/HarikaMandulaPortfolio/index.html",
-    "precache-manifest.6625837d0d196c7adc58d7d2aac2bd56.js": "/HarikaMandulaPortfolio/precache-manifest.6625837d0d196c7adc58d7d2aac2bd56.js",
+    "precache-manifest.f0ebc734efb95c5ad7bf774dfff5b3b4.js": "/HarikaMandulaPortfolio/precache-manifest.f0ebc734efb95c5ad7bf774dfff5b3b4.js",
     "service-worker.js": "/HarikaMandulaPortfolio/service-worker.js",
     "static/css/2.5cce7005.chunk.css.map": "/HarikaMandulaPortfolio/static/css/2.5cce7005.chunk.css.map",
-    "static/css/main.27670afa.chunk.css.map": "/HarikaMandulaPortfolio/static/css/main.27670afa.chunk.css.map",
-    "static/js/2.df46a89a.chunk.js.LICENSE.txt": "/HarikaMandulaPortfolio/static/js/2.df46a89a.chunk.js.LICENSE.txt",
+    "static/css/main.5aaca8d9.chunk.css.map": "/HarikaMandulaPortfolio/static/css/main.5aaca8d9.chunk.css.map",
+    "static/js/2.2df4f881.chunk.js.LICENSE.txt": "/HarikaMandulaPortfolio/static/js/2.2df4f881.chunk.js.LICENSE.txt",
     "static/media/HarikaPic.png": "/HarikaMandulaPortfolio/static/media/HarikaPic.00e39e37.png",
     "static/media/bg2.jpg": "/HarikaMandulaPortfolio/static/media/bg2.46e89c69.jpg",
     "static/media/App.scss": "/HarikaMandulaPortfolio/static/media/bg24.4d217e76.jpg",
@@ -24,8 +24,8 @@
   "entrypoints": [
     "static/js/runtime-main.3337d7f3.js",
     "static/css/2.5cce7005.chunk.css",
-    "static/js/2.df46a89a.chunk.js",
-    "static/css/main.27670afa.chunk.css",
-    "static/js/main.0bc6327b.chunk.js"
+    "static/js/2.2df4f881.chunk.js",
+    "static/css/main.5aaca8d9.chunk.css",
+    "static/js/main.78d5efbd.chunk.js"
   ]
 }
