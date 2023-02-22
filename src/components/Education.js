@@ -34,7 +34,7 @@ const Education = () => {
             </h4>
             <span class="vertical-timeline-element-date">2012 - 2015</span>
           </div>
-          <div id='badge-ribbon'><CountUp end={76.05} enableScrollSpy delay={2} suffix={'%'} /></div>
+          <div id='badge-ribbon'><CountUp end={76.05} enableScrollSpy delay={5} suffix={'%'} /></div>
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"

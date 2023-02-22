@@ -52,38 +52,33 @@ class Skills extends Component {
           </div>
           <fieldset>
             <legend>&nbsp;Proficient&nbsp;&nbsp;&nbsp;</legend>
-            <AnimationOnScroll
-              animateIn="animate__bounceInLeft"
-              className="col-md-12 text-center"
+            <
             >
               {/* { <ul className="list-inline mx-auto skill-icon">{skills}</ul> } */}
               <div className="skill-icons">
-                <div class="skill-circle" style={{ backgroundColor: '#f5e56e' }}><Icon icon={jsIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{ backgroundColor: '#d1f8ff' }}><Icon icon={reactIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#6fd6a8' }}><Icon icon={vueIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#f5898c' }}><Icon icon={angularIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#ac8fd9' }}><Icon icon={bootstrapIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#9bcbeb' }}><Icon icon={typescriptIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#bae8ae' }}><Icon icon={nodejsIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#e892bc' }}><Icon icon={sassIcon} style={{ fontSize: "400%" }} /></div>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle" style={{ backgroundColor: '#f5e56e' }}><Icon icon={jsIcon} style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle" style={{ backgroundColor: '#d1f8ff' }}><Icon icon={reactIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#6fd6a8' }}><Icon icon={vueIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#f5898c' }}><Icon icon={angularIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#ac8fd9' }}><Icon icon={bootstrapIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#9bcbeb' }}><Icon icon={typescriptIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#bae8ae' }}><Icon icon={nodejsIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#e892bc' }}><Icon icon={sassIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
               </div>
-            </AnimationOnScroll>
+            </>
           </fieldset>
           <fieldset>
             <legend>&nbsp;skillful&nbsp;&nbsp;&nbsp;</legend>
-            <AnimationOnScroll
-              animateIn="animate__bounceInLeft"
-              className="col-md-12 text-center"
-            >
+            <>
               {/* { <ul className="list-inline mx-auto skill-icon">{skills}</ul> } */}
               <div className="skill-icons">
-                <div class="skill-circle" style={{backgroundColor: '#85b1d6' }}><Icon icon={pythonIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#9cd6e6' }}><Icon icon={mysqlIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#61b3f2' }}><Icon icon={dockerIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#90a6e8' }}><Icon icon={phpIcon} style={{ fontSize: "400%" }} /></div>
-                <div class="skill-circle" style={{backgroundColor: '#f7d094' }}><Icon icon={awsIcon} style={{ fontSize: "400%" }} /></div>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#85b1d6' }}><Icon icon={pythonIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#9cd6e6' }}><Icon icon={mysqlIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#61b3f2' }}><Icon icon={dockerIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#90a6e8' }}><Icon icon={phpIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
+                <AnimationOnScroll animateIn="animate__fadeIn animate__duration-4s" className="skill-circle text-center" style={{backgroundColor: '#f7d094' }}><Icon icon={awsIcon}style={{ fontSize: "400%" }} /></AnimationOnScroll>
               </div>
-            </AnimationOnScroll>
+            </>
           </fieldset>
               <h1>What can I do</h1><br/>
             <div className="services">

@@ -41,8 +41,8 @@ function contact() {
                 <a href="#" class="insta">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#" class="twitter">
-                  <i class="fa-brands fa-twitter"></i>
+                <a href="https://www.linkedin.com/in/harika-mandula-97547a102/" class="twitter">
+                  <i class="fab fa-github-alt"></i>
                 </a>
               </span>
             </div>

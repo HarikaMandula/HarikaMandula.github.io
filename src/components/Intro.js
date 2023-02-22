@@ -136,7 +136,7 @@ class Intro extends Component {
             />
             <br />
             <Button variant="warning" size="lg">
-              Show More
+              My Resume
             </Button>{" "}
           </div></div>
         </div>
